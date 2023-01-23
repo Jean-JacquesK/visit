@@ -1,5 +1,4 @@
-// import data from "../peopleData"
-
-// function BirthdayDate (){
-//     const result = dateNow().year -
-// }
+export default function BirthdayDate(age) {
+  const date = new Date().getFullYear();
+  return date - age;
+}
