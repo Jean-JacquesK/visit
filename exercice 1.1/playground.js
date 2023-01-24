@@ -21,3 +21,17 @@ b = array[0];
 
 // Penser dynamique
 [a, b] = [b, a];
+
+// Le but de l'exercice est de créér une fonction reverseStr qui permet de retourner la string
+//reverseStr("hello")===> "elloh"
+// attention à bien prendre tous les cas de figure ex:majuscules, espace....
+
+const first = "Hello word";
+
+function ReverseStr() {
+  let elem = string.split("");
+  elem = elem.reverse();
+  return elem.join("");
+}
+
+console.log(ReverseStr(first));
