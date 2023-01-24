@@ -29,9 +29,9 @@ b = array[0];
 const first = "Hello word";
 
 function ReverseStr() {
-  let elem = string.split("");
-  elem = elem.reverse();
-  return elem.join("");
+  let elem = string.split(""); // séparer le mot et le mettre dans un tableau
+  elem = elem.reverse(); // inverser l'ordre du contenu du tableau
+  return elem.join(""); // tout reunir
 }
 
 console.log(ReverseStr(first));
