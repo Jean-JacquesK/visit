@@ -3,7 +3,7 @@ import BirthdayDate from "../utils/BirthdayDate";
 function OnePeople({ name, age, image }) {
   return (
     <>
-      <li className='container my-3'>
+      <li className='container my-3 flex-auto'>
         <img src={image} alt={name} />
         <p className='text-2x1'>Prénom : {name}</p>
         <p>Année de naissance : {BirthdayDate(age)}</p>
